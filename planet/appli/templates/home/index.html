@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+      <h1>here are my all planetss</h1>
+   <ol>
+   	{% for planet in latest_planet_list %}
+   	<li><a href="/appli/{{planet.id}}/">{{planet.name}}</a></li>
+   	
+   	{% endfor %}
+   </ol>
+   
+</body>
+</html>
